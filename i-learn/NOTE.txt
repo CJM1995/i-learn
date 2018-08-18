@@ -1,0 +1,1 @@
+the similar words are in 'app\src\main\res\raw' folder, you can see this when open project through android studio, under res section raw package

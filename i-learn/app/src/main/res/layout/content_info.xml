@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.InfoActivity"
+    tools:showIn="@layout/activity_info">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="30">
+
+            <ImageView
+                android:id="@+id/search_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#DDD" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="70"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/title_con"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/backdrop_style_1"
+                    android:fontFamily="@font/jua_regular"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="5dp"
+                    android:shadowColor="#000"
+                    android:shadowDx="3"
+                    android:shadowDy="3"
+                    android:shadowRadius="2"
+                    android:text="Sample"
+                    android:textAlignment="center"
+                    android:textColor="#FFF"
+                    android:textSize="28dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/sub_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp"
+                android:text="Similar Words"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ListView
+                android:divider="#dca500"
+                android:dividerHeight="1dp"
+                android:id="@+id/suggestions"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></ListView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

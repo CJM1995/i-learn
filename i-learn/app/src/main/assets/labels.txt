@@ -1,0 +1,10 @@
+apple
+ball
+cat
+dog
+egg
+flower
+goldfish
+hat
+ice cream
+jam

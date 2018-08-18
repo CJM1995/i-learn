@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_backdrop"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.SplashActivity"
+    tools:showIn="@layout/activity_splash">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="75"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/icon_1"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/splash_icon_1" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="25"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/text_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/jua_regular"
+                    android:shadowColor="#000"
+                    android:shadowDx="3"
+                    android:shadowDy="3"
+                    android:shadowRadius="2"
+                    android:text="Hi"
+                    android:textAlignment="center"
+                    android:textColor="#FFF"
+                    android:textSize="26dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/text_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/jua_regular"
+                    android:shadowColor="#000"
+                    android:shadowDx="3"
+                    android:shadowDy="3"
+                    android:shadowRadius="2"
+                    android:text="Welcome to"
+                    android:textAlignment="center"
+                    android:textColor="#FFF"
+                    android:textSize="26dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/text_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/jua_regular"
+                    android:shadowColor="#000"
+                    android:shadowDx="3"
+                    android:shadowDy="3"
+                    android:shadowRadius="2"
+                    android:text="@string/app_name"
+                    android:textAlignment="center"
+                    android:textColor="#ff7300"
+                    android:textSize="50dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

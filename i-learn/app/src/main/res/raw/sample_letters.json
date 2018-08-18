@@ -1,0 +1,82 @@
+{
+  "apple": [
+    "Aeroplane",
+    "Abacus",
+    "Axe",
+    "Ant",
+    "Accordion",
+    "Ambulance"
+  ],
+  "ball": [
+    "Butterfly",
+    "Bicycle",
+    "Bee",
+    "Banana",
+    "Baby",
+    "Bag"
+  ],
+  "cat": [
+    "Cake",
+    "Cup",
+    "Clock",
+    "Car",
+    "Carrot",
+    "Clown"
+  ],
+  "dog": [
+    "Deer",
+    "Dinosaur",
+    "Dolphin",
+    "Donkey",
+    "Duck",
+    "Dove"
+  ],
+  "egg": [
+    "Elephant",
+    "Envelope",
+    "Eagle",
+    "Earwig",
+    "Easel",
+    "Eel"
+  ],
+  "flower": [
+    "Farmer",
+    "Fire",
+    "Fish",
+    "Frog",
+    "Five",
+    "Fruit"
+  ],
+  "goldfish": [
+    "Garden",
+    "Gift",
+    "Goat",
+    "Goose",
+    "Grapes",
+    "Grasshopper"
+  ],
+  "hat": [
+    "Hare",
+    "Heart",
+    "Hen",
+    "Hippo",
+    "Horse",
+    "House"
+  ],
+  "ice-cream": [
+    "Igloo",
+    "Iguana",
+    "Ink",
+    "Insect",
+    "Island",
+    "India"
+  ],
+  "jam": [
+    "Jacket",
+    "Jet",
+    "Jeep",
+    "Jellyfish",
+    "Jungle",
+    "Jar"
+  ]
+}
